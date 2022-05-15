@@ -35,8 +35,8 @@ let userweapon = function(userfinal){
    } else {
      document.getElementById('result').innerHTML = 'Invalid Input';
    }
-   document.getElementById('computer-score').innerHTML = computerscore;
-   document.getElementById('user-score').innerHTML = userscore;
+   document.getElementById('computer-score').innerHTML = Math.max(0, computerscore);
+   document.getElementById('user-score').innerHTML = Math.max(0,userscore);
    
 }
 
