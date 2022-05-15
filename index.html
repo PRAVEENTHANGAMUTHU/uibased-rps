@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="details">
+            <div class="title">
+                <h1>Rock Paper Scissor</h1>
+            </div>
+            <div class="choice">
+                <h2 id="userchoice">User Choice: <span id="uc"></span></h2>
+                <h2 id="computerchoice">Computer Choice: <span id="cc"></span></h2>
+            </div>
+            <div class="result">
+                <h2>Result: <span id="result"></span></h2>
+            </div>
+            <div class="score">
+                <h2 class="computer">Computer Score: <span id="computer-score">0</span></h2>
+                <h2 class="user">User Score: <span id="user-score">0</span></h2>
+            </div>
+            <div class="weapons">
+                <button class="weapon" onclick="userweapon('rock')">Rock</button>
+                <button class="weapon" onclick="userweapon('paper')">Paper</button>
+                <button class="weapon" onclick="userweapon('scissor')">Scissor</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h5>Designed and Developed by <span>Praveen</span></h5>
+    </footer>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

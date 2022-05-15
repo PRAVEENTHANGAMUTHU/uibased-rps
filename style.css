@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow+Semi+Condensed:wght@500;600&family=Macondo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width:600px){
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    margin-top: 10%;
+    background-color: azure;
+}
+.container{
+    background-color: gainsboro;
+    padding: 1rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    box-shadow: 3px 3px 3px 2px gray;
+}
+.weapons{
+    margin-top: 5%;
+}
+.weapons button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-weight: 900;
+}
+.weapons button:hover{
+    background-color: gray;
+}
+.score span{
+    margin-left: 1rem;
+}
+footer h5{
+    position: relative;
+    bottom: 2rem;
+    color: grey;
+}
+footer h5 span{
+    color: black;
+}
+}
+@media (max-width:600px){
+    body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    margin-top: 5%;
+    background-color: azure;
+}
+.container{
+    background-color: gainsboro;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    box-shadow: 3px 3px 3px 2px gray;
+}
+.weapons{
+    margin-top: 5%;
+}
+.weapons button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Macondo', cursive;
+    font-weight: 900;
+}
+.weapons button:hover{
+    background-color: gray;
+}
+.score span{
+    margin-left: 1rem;
+}
+footer h5{
+    position: relative;
+    bottom: 2rem;
+    color: grey;
+}
+footer h5 span{
+    color: black;
+}
+}
